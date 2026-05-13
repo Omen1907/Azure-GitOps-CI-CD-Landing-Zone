@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "example" {
+resource "azurerm_resource_group" "kitsune_dev" {
   name     = "rg-kitsune-dev"
-  location = "Japan East"
+  location = "East US"
 }
